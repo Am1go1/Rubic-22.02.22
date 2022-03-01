@@ -5,15 +5,13 @@ using System.Threading.Tasks;
 
 namespace Rubic.Models
 {
-    public class User
+    public class Stock
     {
         public int Id { get; set; }
-        public int PhoneNumberPrefix { get; set; }
-        public long PhoneNumber { get; set; }
         public string Name { get; set; }
-        public string Surname { get; set; }
-        public string Password { get; set; }
-        public List<Money> Moneys { get; set; }
+        public string Owner { get; set; }
+        public int Amonnt { get; set; }
+        public int BagPackId { get; set; }
         public BagPack BagPack { get; set; }
     }
 }
